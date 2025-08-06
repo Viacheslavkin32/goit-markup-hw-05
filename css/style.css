@@ -435,6 +435,10 @@ ul {
 
 /* MODAL */
 
+.modal {
+  margin-left: 80px;
+}
+
 .modal-subscribe {
   margin-bottom: 16px;
   font-weight: 500;
