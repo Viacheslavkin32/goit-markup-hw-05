@@ -734,9 +734,6 @@ input::placeholder {
 .input-checkbox:checked + .checkbox-label .label-span {
   background-color: #404bbf;
   border: none;
-}
-
-.input-checkbox:checked + .checkbox-label .checkbox-icon {
   fill: #f4f4fd;
 }
 
