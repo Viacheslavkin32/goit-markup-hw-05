@@ -395,6 +395,62 @@
       </div>
     </div>
   </footer>
+  <div class="modal-overlay">
+    <div class="modal-overlay-window">
+      <button type="button" class="window-button">
+        <svg width="8" height="8" class="icon-close">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <p class="window-text">Leave your contacts and we will call you back</p>
+      <form>
+        <div class="window-form">
+          <label class="window-form-label" for="user-name">Name</label>
+          <div class="window-input">
+            <input id="user-name" name="user-name" type="text" class="window-input-text" />
+            <svg width="18" height="24" class="window-svg-icon">
+              <use href="./images/icons.svg#icon-personka"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="window-form">
+          <label class="window-form-label" for="user-name">Phone</label>
+          <div class="window-input">
+            <input id="user-name" name="user-name" type="text" class="window-input-text" />
+            <svg width="18" height="24" class="window-svg-icon">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="window-form">
+          <label class="window-form-label" for="user-name">Email</label>
+          <div class="window-input">
+            <input id="user-name" name="user-name" type="text" class="window-input-text" />
+            <svg width="18" height="24" class="window-svg-icon">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="window-comment">
+          <label class="window-form-label" for="user-comment">Comment</label>
+          <textarea id="user-comment" name="user-comment" placeholder="Text input" class="window-textarea"></textarea>
+        </div>
+        <div class="window-checkbox">
+          <input id="user-privacy" type="checkbox" value="true" name="user-privacy"
+            class="input-checkbox visually-hidden" />
+          <label for="user-privacy" class="checkbox-label">
+            <span class="label-span">
+              <svg width="10" height="8" class="checkbox-icon">
+                <use href="./images/icons.svg#icon-galka"></use>
+              </svg>
+            </span> I accept the terms and conditions of the
+            <a href="#" class="privacy-policy">Privacy Policy</a>
+          </label>
+        </div>
+        <button class="button-send">Send</button>
+      </form>
+    </div>
+  </div>
 </body>
 
 </html>
